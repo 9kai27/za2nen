@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f583; /* 初期状態は灰色 */
+    transition: background-color 6s ease;
+  }
+  
+  body.active {
+    background-color: #00bfff; /* 押下後の水色系青 */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  input {
+    font-size: 1.2em;
+    padding: 0.5em;
+    width: 60%;
+    max-width: 300px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+  }
+  
+  #displayText {
+    margin-top: 30px;
+    font-size: 2em;
+    opacity: 1;
+    transition: opacity 6s ease;
+    color: #000;
+  }
+  
